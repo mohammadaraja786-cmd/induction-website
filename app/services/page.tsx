@@ -29,6 +29,7 @@ const services = [
       "24/7 autonomous operation",
       "Continuous learning & improvement",
     ],
+    tags: ["LLM fine tuning", "Lead Gen", "Customer Support"]
   },
   {
     icon: Workflow,
@@ -41,6 +42,7 @@ const services = [
       "Error handling & alerts",
       "Real-time monitoring dashboards",
     ],
+    tags: ["Restaurants", "Healthcare", "E-commerce"]
   },
   {
     icon: Database,
@@ -53,6 +55,7 @@ const services = [
       "Pipeline sync & reporting",
       "Custom field mapping",
     ],
+    tags: ["Salesforce", "HubSpot", "Zoho"]
   },
   {
     icon: MessageSquare,
@@ -65,6 +68,7 @@ const services = [
       "Multi-language support",
       "Handoff to human agents",
     ],
+      tags: ["WhatsApp", "Telegram", "Customer Engagement"]
   },
   {
     icon: Zap,
@@ -77,6 +81,7 @@ const services = [
       "Rate limiting & security",
       "Comprehensive documentation",
     ],
+    tags: ["Custom Integrations", "Internal Tools", "SaaS Platforms"]
   },
   {
     icon: BarChart3,
@@ -89,6 +94,7 @@ const services = [
       "Scheduled report generation",
       "Predictive analytics",
     ],
+    tags: ["Data Visualization", "Business Intelligence", "Predictive Analytics"]
   },
 ]
 
@@ -125,6 +131,16 @@ export default function ServicesPage() {
                 <p className="mb-6 text-sm leading-relaxed text-muted-foreground">
                   {service.description}
                 </p>
+                <div className="flex flex-wrap gap-2 mb-4">
+  {service.tags && service.tags.map((tag) => (
+    <span 
+      key={tag} 
+      className="px-2 py-0.5 text-[10px] uppercase tracking-wider font-bold border border-[#808b4d]/40 bg-[#808b4d]/10 text-[#a3b18a] rounded"
+    >
+      {tag}
+    </span>
+  ))}
+</div>
                 <ul className="flex flex-col gap-2">
                   {service.features.map((feature) => (
                     <li key={feature} className="flex items-center gap-2 text-sm text-muted-foreground">
