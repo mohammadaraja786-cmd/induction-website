@@ -21,14 +21,16 @@ export function Navbar() {
     <header className="fixed top-0 left-0 right-0 z-50 border-b border-border/50 bg-background/80 backdrop-blur-xl">
       <nav className="mx-auto flex max-w-7xl items-center justify-between px-6 py-4">
         <Link href="/" className="flex items-center gap-2 group">
-          <div className="flex h-15 w-15 items-center justify-center rounded-xl bg-[#808b4d]/10 transition-all duration-300 group-hover:bg-[#808b4d]/20">
-  <img 
-    src="/images/logo-clean.png" 
-    alt="Induction Symbol" 
-    /* Added the animate-glow-slow class here */
-    className="h-10 w-10 object-contain brightness-110 animate-glow-slow transition-transform duration-500 group-hover:rotate-[5deg]" 
-  />
-</div>
+          <div className="flex h-15 w-15 items-center justify-center rounded-xl bg-[#808b4d]/10 ring-1 ring-[#808b4d]/20 transition-all duration-500 group-hover:bg-[#808b4d]/20 group-hover:ring-[#808b4d]/40">
+    <img 
+      src="/images/logo-clean.png" 
+      alt="Induction Symbol" 
+      className="h-10 w-10 object-contain brightness-110 transition-all duration-500 
+                 drop-shadow-[0_0_8px_rgba(128,139,77,0.5)] 
+                 group-hover:drop-shadow-[0_0_15px_rgba(128,139,77,0.8)] 
+                 group-hover:scale-110 group-hover:rotate-[2deg]" 
+    />
+  </div>
 
   {/* The Typography */}
   <span className="text-xl font-bold tracking-tight text-white transition-colors group-hover:text-[#808b4d]">
