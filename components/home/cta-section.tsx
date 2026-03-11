@@ -24,7 +24,7 @@ export function CTASection() {
             href="/about"
             className="rounded-lg border border-border px-8 py-3.5 text-sm font-semibold text-foreground transition-all hover:border-primary/50 hover:bg-secondary"
           >
-            About the Founder
+            Meet the Founders
           </Link>
         </div>
       </div>
