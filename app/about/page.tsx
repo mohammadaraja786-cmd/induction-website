@@ -3,7 +3,7 @@ import Link from "next/link"
 import { ArrowRight, Target, Eye, Rocket } from "lucide-react"
 
 export const metadata: Metadata = {
-  title: "Induction.io | AI Automation Founder Mohammad Ahmad",
+  title: "Induction.io | AI Automation Founder & CEO Mohammad Ahmad",
   description:
     "Meet Mohammad Ahmad, the visionary behind Induction.io. Learn about our mission to transform businesses through intelligent AI automation.",
 }
@@ -36,7 +36,7 @@ export default function AboutPage() {
                 <div className="relative h-64 w-64 overflow-hidden rounded-full border-4 border-primary bg-card md:h-80 md:w-80">
                   <img
                     src="/images/ahmad1.pic.jpg"
-                    alt="Mohammad Ahmad - Founder of Induction.io"
+                    alt="Mohammad Ahmad - Founder & CEO of Induction.io"
                     className="h-full w-full scale-[1.15] object-cover object-[center_10%]"
                   />
                 </div>
@@ -46,7 +46,7 @@ export default function AboutPage() {
             {/* Bio */}
             <div className="flex-1 text-center lg:text-left">
               <span className="mb-2 inline-block text-sm font-medium text-primary">
-                Meet the Founder 
+                Meet the Founder & Chief Executive Officer (CEO)
               </span>
               <h2 className="text-balance text-3xl font-bold text-foreground md:text-4xl">
                 Mohammad Ahmad
@@ -99,16 +99,16 @@ export default function AboutPage() {
             {/* Bio */}
             <div className="flex-1 text-center lg:text-left">
               <span className="mb-2 inline-block text-sm font-medium text-primary">
-                Meet the Co-founder
+                Meet the Co-founder & Chief Creative Officer (CCO)
               </span>
               <h2 className="text-balance text-2xl font-bold text-foreground md:text-3xl">
                 Kainat Asif
               </h2>
-              <p className="mt-4 text-lg font-medium text-foreground/80">Co-founder · Product & Operations</p>
+              <p className="mt-4 text-lg font-medium text-foreground/80">Visual Brand Architect · Creative Strategist & Operations</p>
               <p className="mt-4 max-w-xl text-pretty leading-relaxed text-muted-foreground">
-                Kainat Asif co-founded Induction.io with a focus on product strategy and
-                operational excellence. She combines deep customer empathy with strong
-                execution skills to deliver products that solve real business problems.
+                Kainat Asif defines the visual and strategic direction of Induction.io, ensuring that every automation we build carries a world-class user experience. As a Creative Strategist, she bridges the gap between complex AI logic and high-impact design, transforming technical workflows into intuitive, human-centered products.
+
+                With a mastery of Creative Operations, Kainat scales our creative output while maintaining a relentless focus on brand integrity and aesthetic excellence. She doesn't just design tools; she builds the brand narratives and go-to-market strategies that allow our clients to lead their industries with style and precision.
               </p>
               <p className="mt-4 max-w-xl text-pretty leading-relaxed text-muted-foreground">
                 Her expertise spans product design, go-to-market strategies, and
