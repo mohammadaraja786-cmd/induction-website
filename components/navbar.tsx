@@ -21,12 +21,19 @@ export function Navbar() {
     <header className="fixed top-0 left-0 right-0 z-50 border-b border-border/50 bg-background/80 backdrop-blur-xl">
       <nav className="mx-auto flex max-w-7xl items-center justify-between px-6 py-4">
         <Link href="/" className="flex items-center gap-2 group">
-          <div className="flex h-9 w-9 items-center justify-center rounded-lg bg-primary/20 transition-colors group-hover:bg-primary/30">
-            <Zap className="h-5 w-5 text-primary" />
-          </div>
-          <span className="text-xl font-bold tracking-tight text-foreground">
-            induction<span className="text-primary">.io</span>
-          </span>
+          <div className="flex h-15 w-15 items-center justify-center rounded-xl bg-[#808b4d]/10 transition-all duration-300 group-hover:bg-[#808b4d]/20">
+  <img 
+    src="/images/logo-clean.png" 
+    alt="Induction Symbol" 
+    /* Added the animate-glow-slow class here */
+    className="h-10 w-10 object-contain brightness-110 animate-glow-slow transition-transform duration-500 group-hover:rotate-[5deg]" 
+  />
+</div>
+
+  {/* The Typography */}
+  <span className="text-xl font-bold tracking-tight text-white transition-colors group-hover:text-[#808b4d]">
+    induction.io
+  </span>
         </Link>
 
         {/* Desktop nav */}

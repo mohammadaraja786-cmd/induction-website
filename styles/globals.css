@@ -123,3 +123,17 @@
     @apply bg-background text-foreground;
   }
 }
+@keyframes pulseGlow {
+  0%, 100% { 
+    filter: drop-shadow(0 0 8px rgba(128, 139, 77, 0.5));
+    transform: scale(1);
+  }
+  50% { 
+    filter: drop-shadow(0 0 20px rgba(128, 139, 77, 0.9));
+    transform: scale(1.05);
+  }
+}
+
+.animate-glow-slow {
+  animation: pulseGlow 3s ease-in-out infinite;
+}
